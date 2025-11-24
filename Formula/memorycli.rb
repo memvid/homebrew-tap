@@ -1,14 +1,14 @@
 class Memorycli < Formula
   desc "A simple CLI for testing deployment pipelines"
   homepage "https://github.com/memvid/memory-cli"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       # memorycli-aarch64-apple-darwin.tar.gz
-      url "https://github.com/memvid/memory-cli/releases/download/v0.1.1/memorycli-aarch64-apple-darwin.tar.gz"
-      sha256 "PASTE_FULL_SHA256_FOR_aarch64_apple_darwin_HERE"
+      url "https://github.com/memvid/memory-cli/releases/download/v0.1.2/memorycli-x86_64-apple-darwin.tar.gz"
+      sha256 "e59e11b06d7b7e4759028f8b6f6d174a62a611e3f358af2a809406c3260a597e"
     else
       # memorycli-x86_64-apple-darwin.tar.gz
       url "https://github.com/memvid/memory-cli/releases/download/v0.1.1/memorycli-x86_64-apple-darwin.tar.gz"
